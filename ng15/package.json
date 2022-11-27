@@ -23,6 +23,7 @@
     "@ngrx/entity": "^14.3.2",
     "@ngrx/router-store": "^14.3.2",
     "@ngrx/store": "^14.3.2",
+    "ngrx-entity-crud": "^15.0.0-beta.7",
     "primeflex": "^3.3.0",
     "primeicons": "^6.0.1",
     "primeng": "*",
