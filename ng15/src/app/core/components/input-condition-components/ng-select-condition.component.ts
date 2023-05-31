@@ -17,14 +17,12 @@ import {
   Validator,
   ValidatorFn,
 } from '@angular/forms';
-import {
-  Condition,
-  InputConditionBaseComponent,
-} from './input-condition-base.component';
+
 import { FormConditionItem } from './form-condition';
 // import { ValidatorOpt } from '@app/core/validators/j-validators';
 import { Dictionary } from '@ngrx/entity';
 import { Observable, of } from 'rxjs';
+import { InputConditionBaseComponent } from './input-condition-base.component';
 // import { FormConditionStoreSelectors } from '@root-store';
 
 @Component({
