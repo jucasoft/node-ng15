@@ -11,7 +11,7 @@ import {
   UntypedFormGroup,
 } from '@angular/forms';
 import { Subscription } from 'rxjs';
-import { FormConditionItem } from ',/form-condition';
+import { FormConditionItem } from './form-condition';
 import { Store } from '@ngrx/store';
 
 export type ConditionType =
