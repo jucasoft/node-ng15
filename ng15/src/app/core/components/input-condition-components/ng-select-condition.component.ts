@@ -21,11 +21,11 @@ import {
   Condition,
   InputConditionBaseComponent,
 } from './input-condition-base.component';
-import { FormConditionItem } from '@models/vo/form-condition';
-import { ValidatorOpt } from '@app/core/validators/j-validators';
+// import { FormConditionItem } from '@models/vo/form-condition';
+// import { ValidatorOpt } from '@app/core/validators/j-validators';
 import { Dictionary } from '@ngrx/entity';
 import { Observable, of } from 'rxjs';
-import { FormConditionStoreSelectors } from '@root-store';
+// import { FormConditionStoreSelectors } from '@root-store';
 
 @Component({
   selector: 'app-ng-select-condition',

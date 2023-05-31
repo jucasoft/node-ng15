@@ -12,14 +12,12 @@ import { AutoCompleteModule } from 'primeng/autocomplete';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { TooltipModule } from 'primeng/tooltip';
 
-
 // import { DatePickerConditionComponent } from './date-picker-condition.component';
 // import { MultiselectConditionComponent } from './multiselect-condition.component';
 // import { TextInputConditionComponent } from './text-input-condition.component';
-// import { InputConditionBaseComponent } from './input-condition-base.component';
+import { InputConditionBaseComponent } from './input-condition-base.component';
 // import { NumberInputConditionComponent } from './number-input-condition.component';
-// import { NgSelectConditionComponent } from './ng-select-condition.component';
-
+import { NgSelectConditionComponent } from './ng-select-condition.component';
 
 @NgModule({
   declarations: [
@@ -27,15 +25,15 @@ import { TooltipModule } from 'primeng/tooltip';
     // TextInputConditionComponent,
     // NumberInputConditionComponent,
     // MultiselectConditionComponent,
-    // InputConditionBaseComponent,
-    // NgSelectConditionComponent,
+    InputConditionBaseComponent,
+    NgSelectConditionComponent,
   ],
   exports: [
     // DatePickerConditionComponent,
     // TextInputConditionComponent,
     // NumberInputConditionComponent,
     // MultiselectConditionComponent,
-    // NgSelectConditionComponent,
+    NgSelectConditionComponent,
   ],
   imports: [
     CommonModule,
