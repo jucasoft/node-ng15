@@ -21,7 +21,7 @@ import {
   Condition,
   InputConditionBaseComponent,
 } from './input-condition-base.component';
-// import { FormConditionItem } from '@models/vo/form-condition';
+import { FormConditionItem } from './form-condition';
 // import { ValidatorOpt } from '@app/core/validators/j-validators';
 import { Dictionary } from '@ngrx/entity';
 import { Observable, of } from 'rxjs';
