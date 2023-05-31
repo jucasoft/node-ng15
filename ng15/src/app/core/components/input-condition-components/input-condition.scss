@@ -1,0 +1,99 @@
+.p-d-flex {
+  width: 100%;
+}
+
+.input-data {
+  width: 100%;
+}
+
+.input-number {
+  width: 100%;
+}
+
+.p-float-label {
+  width: 100%;
+}
+
+.inputgroup {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  padding-top: 10px;
+}
+
+::ng-deep .ng-select .ng-select-container {
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  min-height: 44px !important;
+}
+
+::ng-deep .inputgroup .p-inputtext {
+  border-radius: 0;
+}
+
+::ng-deep .inputgroup .p-calendar {
+  display: flex;
+}
+
+.input-is-disable {
+  background: #fafafa;
+  color: #71717a;
+  border-top: 1px solid #d4d4d8;
+  border-right: 1px solid #d4d4d8;
+  border-bottom: 1px solid #d4d4d8;
+  padding: 0.75rem 0.75rem;
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+::ng-deep .input-operator > .p-dropdown .p-dropdown-trigger {
+  display: none;
+}
+
+::ng-deep .input-operator > .p-dropdown {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.p-dropdown.p-component,
+.input-operator {
+  width: 3em !important;
+  background-color: var(--surface-ground);
+  border-right: 0;
+}
+
+input.p-inputtext {
+  width: inherit;
+}
+
+input.p-inputnumber {
+  width: inherit;
+}
+
+input.p-dropdown {
+  width: inherit;
+}
+
+.p-multiselect > p-multiSelect {
+  width: 100%;
+}
+
+:host ::ng-deep .p-multiselect {
+  width: 100%;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+:host ::ng-deep .p-inputnumber {
+  width: 100%;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+:host ::ng-deep .p-dropdown {
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
